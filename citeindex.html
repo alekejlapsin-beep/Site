@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hoooot VPN — Быстрый доступ в сеть за 60 ₽</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Inter, sans-serif;
+      background: radial-gradient(circle at 50% -10%, #361608 0%, #09090d 55%);
+      color: #ffffff;
+      line-height: 1.5;
+      min-height: 100vh;
+    }
+    .container { max-width: 900px; margin: 0 auto; padding: 20px 18px 56px; }
+    header {
+      display: flex; justify-content: space-between; align-items: center;
+      padding: 10px 0 32px;
+    }
+    .logo { font-size: 22px; font-weight: 800; letter-spacing: 0.4px; }
+    .logo span { color: #ff5e1a; }
+    .btn-small {
+      background: rgba(255, 94, 26, 0.14); border: 1px solid rgba(255, 94, 26, 0.6);
+      color: #ff9466; padding: 8px 16px; border-radius: 12px;
+      text-decoration: none; font-weight: 600; font-size: 14px;
+    }
+    .hero { text-align: center; padding: 20px 0 42px; }
+    .badge {
+      display: inline-block; background: rgba(255, 94, 26, 0.15);
+      color: #ff854d; padding: 6px 14px; border-radius: 999px;
+      font-size: 13px; font-weight: 600; margin-bottom: 18px;
+      border: 1px solid rgba(255, 94, 26, 0.35);
+    }
+    h1 {
+      font-size: clamp(32px, 6.5vw, 52px); font-weight: 800;
+      line-height: 1.12; margin-bottom: 16px;
+    }
+    h1 span {
+      background: linear-gradient(90deg, #ff5500, #ffb84d);
+      -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+    }
+    .subtitle {
+      color: #a1a1aa; font-size: 16px; max-width: 540px;
+      margin: 0 auto 30px;
+    }
+    .btn-main {
+      display: inline-block;
+      background: linear-gradient(90deg, #ff4d00, #ff8000);
+      color: #fff; font-size: 17px; font-weight: 700;
+      padding: 16px 32px; border-radius: 14px; text-decoration: none;
+      box-shadow: 0 12px 32px rgba(255, 94, 26, 0.4);
+    }
+    .grid {
+      display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 16px; margin: 36px 0;
+    }
+    .card {
+      background: rgba(255, 255, 255, 0.035);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 18px; padding: 22px;
+      backdrop-filter: blur(10px);
+    }
+    .card h3 { font-size: 17px; margin-bottom: 8px; }
+    .card p { color: #a1a1aa; font-size: 14px; }
+    .pricing {
+      background: linear-gradient(155deg, rgba(255, 94, 26, 0.14), rgba(255, 255, 255, 0.025));
+      border: 1px solid rgba(255, 94, 26, 0.45);
+      border-radius: 22px; padding: 32px 22px; text-align: center;
+      margin-top: 20px;
+    }
+    .price { font-size: 46px; font-weight: 800; margin: 8px 0; }
+    .price span { font-size: 16px; color: #a1a1aa; font-weight: 500; }
+    .features-list {
+      list-style: none; max-width: 330px; margin: 16px auto 26px;
+      text-align: left; color: #e4e4e7; font-size: 15px;
+    }
+    .features-list li { margin-bottom: 9px; }
+    .steps {
+      margin-top: 40px; text-align: center;
+    }
+    .steps h2 { font-size: 22px; margin-bottom: 18px; }
+    footer {
+      text-align: center; color: #71717a; font-size: 13px;
+      margin-top: 52px; border-top: 1px solid rgba(255, 255, 255, 0.07);
+      padding-top: 22px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="logo">🔥 Hoooot <span>VPN</span></div>
+      <a class="btn-small" href="https://t.me" target="_blank">Открыть бот</a>
+    </header>
+
+    <section class="hero">
+      <div class="badge">VLESS & Trojan • Автовыбор локации</div>
+      <h1>Быстрый доступ в интернет <span>без тормозов</span></h1>
+      <p class="subtitle">
+        Мгновенная выдача ключа через Telegram-бот за 10 секунд.
+        Работает на iOS, Android, Windows и macOS.
+      </p>
+      <a class="btn-main" href="https://t.me" target="_blank">
+        🚀 Подключить в Telegram
+      </a>
+    </section>
+
+    <section class="grid">
+      <div class="card">
+        <h3>⚡️ Высокая скорость</h3>
+        <p>Современные протоколы VLESS и Trojan обеспечивают минимальный пинг и плавное видео в 4K.</p>
+      </div>
+      <div class="card">
+        <h3>🔄 Умный автоподбор</h3>
+        <p>В одну подписку включены скоростные серверы — приложение само подберёт лучший узел.</p>
+      </div>
+      <div class="card">
+        <h3>📱 Любые устройства</h3>
+        <p>Подключается в пару кликов через бесплатные приложения v2RayTun, Hiddify и Streisand.</p>
+      </div>
+    </section>
+
+    <section class="pricing">
+      <h2>Тариф «Стандарт»</h2>
+      <div class="price">60 ₽ <span>/ 30 дней</span></div>
+      <ul class="features-list">
+        <li>✅ Несколько скоростных локаций в одной подписке</li>
+        <li>✅ Автоматическая выдача сразу после оплаты</li>
+        <li>✅ Поддержка в Telegram</li>
+      </ul>
+      <a class="btn-main" href="https://t.me" target="_blank">
+        Купить подписку за 60 ₽
+      </a>
+    </section>
+
+    <section class="steps">
+      <h2>Подключение за 30 секунд</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>1. Оформите доступ</h3>
+          <p>Перейдите в бота @VeryHotVpnbot и оплатите тариф любым удобным способом.</p>
+        </div>
+        <div class="card">
+          <h3>2. Скопируйте ссылку</h3>
+          <p>Бот мгновенно пришлёт персональную ссылку-подписку в чат.</p>
+        </div>
+        <div class="card">
+          <h3>3. Вставьте в клиент</h3>
+          <p>Откройте v2RayTun или Hiddify, вставьте ссылку из буфера и нажмите старт.</p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      © 2026 Hoooot VPN • Официальный бот: <a href="https://t.me" style="color:#ff8c5a;">@VeryHotVpnbot</a>
+    </footer>
+  </div>
+</body>
+</html>
